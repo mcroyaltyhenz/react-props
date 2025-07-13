@@ -1,0 +1,18 @@
+.App {
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.player-card {
+  transition: transform 0.3s ease;
+}
+
+.player-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1) !important;
+}
+
+.player-image {
+  border-bottom: 1px solid #eee;
+}
